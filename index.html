@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f5f3ee" />
+    <meta name="description" content="A clear, step-by-step guide to installing the Ricoh MP C3503 printer driver on Windows 11 over a network." />
+    <title>Install Ricoh MP C3503 on Windows 11</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 3px;
+	
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#top" aria-label="Papertrail home"><span class="brand-mark">P</span><span>papertrail<span class="brand-dot">.</span></span></a>
+      <nav aria-label="Main navigation">
+        <a href="#steps">Installation</a>
+        <a href="#troubleshooting">Troubleshooting</a>
+        <a class="nav-cta" href="https://www.ricoh-ap.com/downloads" target="_blank" rel="noreferrer">Ricoh support <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero wrap">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="eyebrow-dot"></span> THE PRACTICAL PRINT GUIDE</div>
+          <h1>Get your Ricoh<br /><span>printing again.</span></h1>
+          <p class="hero-description">A straightforward guide to installing the MP C3503 printer driver on Windows 11. Follow along and you’ll be ready to print in a few minutes.</p>
+          <div class="hero-actions">
+            <a class="button button-dark" href="#steps">Start the setup <span aria-hidden="true">↓</span></a>
+            <span class="read-time"><span class="clock-icon">◷</span> About 10 minutes</span>
+          </div>
+          <div class="hero-note"><span class="note-icon">i</span><span>These instructions use a <strong>network connection</strong>. You’ll need the printer’s IP address.</span></div>
+        </div>
+        <div class="printer-scene" aria-label="Ricoh MP C3003 printer">
+	<img
+    class="printer-image"
+    src="mpc3003.jpg"
+    alt="Ricoh MP C3003 printer"
+	/>
+        </div>
+      </section>
+
+      <section class="quick-facts wrap" aria-label="Before you start">
+        <div class="fact"><span class="fact-icon icon-windows">⊞</span><div><span class="fact-label">YOUR COMPUTER</span><strong>Windows 11</strong></div></div>
+        <div class="fact"><span class="fact-icon icon-printer">▤</span><div><span class="fact-label">PRINTER MODEL</span><strong>Ricoh MP C3503</strong></div></div>
+        <div class="fact"><span class="fact-icon icon-wifi">⌁</span><div><span class="fact-label">CONNECTION</span><strong>Network / Ethernet</strong></div></div>
+        <div class="fact fact-status"><span class="status-dot"></span><div><span class="fact-label">DIFFICULTY</span><strong>Beginner friendly</strong></div></div>
+      </section>
+
+      <section class="steps-section" id="steps">
+        <div class="wrap steps-layout">
+          <aside class="steps-aside">
+            <div class="eyebrow">LET’S GET STARTED</div>
+            <h2>Three steps.<br />One working<br /><span>printer.</span></h2>
+            <p>Keep this page open as you go. We’ll find the printer, get the right driver, and add it to Windows.</p>
+            <div class="progress-card"><div class="progress-top"><span>YOUR PROGRESS</span><span id="progress-count">0 / 3</span></div><div class="progress-track"><span id="progress-fill"></span></div><span class="progress-hint">Check off each step as you finish</span></div>
+            <div class="need-card"><div class="need-heading"><span class="need-icon">✳</span> BEFORE YOU BEGIN</div><ul><li>Printer powered on</li><li>PC on the same network</li><li>Administrator access</li><li>Printer IP address</li></ul></div>
+          </aside>
+
+          <div class="step-list">
+            <article class="step-card" data-step="1">
+              <div class="step-number">01</div><div class="step-content">
+                <div class="step-heading"><div><span class="step-kicker">FIRST THINGS FIRST</span><h3>Find the printer’s IP address</h3></div><label class="done-toggle"><input type="checkbox" /><span class="checkmark"></span><span>Done</span></label></div>
+                <p>On the Ricoh control panel, open <strong>User Tools / Settings</strong>, then find the IPv4 address under <strong>System Settings → Interface Settings</strong>. The menu names can vary a little by configuration.</p>
+                <div class="address-example"><span class="address-label">IT LOOKS LIKE THIS</span><code>192.168.1.163</code><span class="address-hint">Write yours down</span></div>
+                <div class="step-tip"><span>TIP</span> You can also print a configuration page from the printer’s settings to find its network address.</div>
+              </div>
+            </article>
+
+            <article class="step-card" data-step="2">
+              <div class="step-number">02</div><div class="step-content">
+                <div class="step-heading"><div><span class="step-kicker">GET THE RIGHT SOFTWARE</span><h3>Download and extract the driver</h3></div><label class="done-toggle"><input type="checkbox" /><span class="checkmark"></span><span>Done</span></label></div>
+                <p>Open Ricoh’s support page, choose your region if asked, and select the <strong>MP C3503</strong>. Download the current Windows <strong>PCL 6</strong> driver, then extract the downloaded file.</p>
+                <a class="download-link" href="https://support.ricoh.com/bb/html/dr_ut_e/re2/model/mpc3003/mpc3003.htm" target="_blank" rel="noreferrer"><span class="download-icon">↓</span><span><strong>Open Ricoh driver downloads</strong><small>Official Ricoh support · Select your Windows version</small></span><span class="external-arrow">↗</span></a>
+                <div class="step-tip"><span>NOTE</span> Ricoh’s support pages can differ by country. If this page redirects, search Ricoh’s local support site for “MP C3503 driver” and select your Windows version.</div>
+              </div>
+            </article>
+
+            <article class="step-card" data-step="3">
+              <div class="step-number">03</div><div class="step-content">
+                <div class="step-heading"><div><span class="step-kicker">ADD IT TO WINDOWS</span><h3>Add the printer by IP address</h3></div><label class="done-toggle"><input type="checkbox" /><span class="checkmark"></span><span>Done</span></label></div>
+                <ol class="install-list">
+                  <li><span>1</span><div>Open <strong>Settings → Bluetooth & devices → Printers & scanners</strong>.</div></li>
+                  <li><span>2</span><div>Select <strong>Add device</strong>, wait a moment, then choose <strong>Add manually</strong> when it appears.</div></li>
+                  <li><span>3</span><div>Choose <strong>Add a printer using an IP address or hostname</strong>, then select <strong>Next</strong>.</div></li>
+                  <li><span>4</span><div>Set device type to <strong>TCP/IP Device</strong>. Enter the IP address you noted in Step 1, clear <strong>Query the printer</strong> if shown, then select <strong>Next</strong>.</div></li>
+                  <li><span>5</span><div>When asked for a driver, choose <strong>Have Disk → Browse</strong>. Find the folder you extracted and select the <strong>.inf</strong> file (often inside “Disk1”).</div></li>
+                  <li><span>6</span><div>Select <strong>RICOH MP C3503 PCL 6</strong>, continue through the prompts, and choose <strong>Do not share this printer</strong> unless you need sharing.</div></li>
+                </ol>
+                <div class="success-note"><span class="success-check">✓</span><span><strong>That’s the setup.</strong> Open the printer in Printers & scanners and print a test page.</span></div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="troubleshooting wrap" id="troubleshooting">
+        <div class="trouble-heading"><div><div class="eyebrow">A FEW QUICK FIXES</div><h2>Something not quite right?</h2></div><p>Most setup snags come down to the connection or driver selection. Try these before starting over.</p></div>
+        <div class="trouble-grid">
+          <details class="trouble-card"><summary><span class="trouble-icon">⌁</span><span><strong>Windows can’t find the printer</strong><small>Check the network connection</small></span><span class="plus">+</span></summary><p>Confirm the printer is on and connected to the same network as your PC. Use its IP address in the manual add flow. If the address changes often, ask your network administrator about reserving it.</p></details>
+          <details class="trouble-card"><summary><span class="trouble-icon">▤</span><span><strong>The driver isn’t listed</strong><small>Point Windows to the extracted files</small></span><span class="plus">+</span></summary><p>Make sure the download is fully extracted; don’t browse inside the ZIP file. In Have Disk, locate the extracted folder and select the matching .inf file. Download the driver again if the folder contains no .inf file.</p></details>
+          <details class="trouble-card"><summary><span class="trouble-icon">↻</span><span><strong>Jobs stay in the queue</strong><small>Restart the print connection</small></span><span class="plus">+</span></summary><p>Restart the printer and PC, then try a test page. Confirm the printer’s current IP address still matches the port Windows is using. A different or changed address can leave jobs waiting.</p></details>
+        </div>
+      </section>
+
+      <section class="help-banner wrap"><div class="help-icon">?</div><div><span class="help-kicker">STILL STUCK?</span><h2>Ricoh’s support team can help.</h2><p>For region-specific drivers, firmware, and model support, head to Ricoh’s official support site.</p></div><a href="https://www.ricoh-ap.com/downloads" target="_blank" rel="noreferrer" class="button button-light">Visit Ricoh support <span>↗</span></a></section>
+    </main>
+
+    <footer class="footer wrap"><a class="brand footer-brand" href="#top"><span class="brand-mark">P</span><span>papertrail<span class="brand-dot">.</span></span></a><p>An independent how-to guide for Ricoh MP C3503 users.</p><div class="footer-links"><a href="https://www.ricoh-ap.com/downloads" target="_blank" rel="noreferrer">Official Ricoh support ↗</a><span>© <span id="year"></span> Papertrail</span></div></footer>
+    <script src="script.js"></script>
+  </body>
+</html>
